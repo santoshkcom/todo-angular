@@ -32,8 +32,8 @@
 
 .todo-item-label {
   padding: 10px;
-  border: 1px solid white;
   margin-left: 12px;
+  font-size: 120%;
 }
 
 .todo-item-edit {
@@ -52,7 +52,7 @@
 
 .completed {
   text-decoration: line-through;
-  color: grey;
+  // color: grey;
 }
 
 .extra-container {
@@ -65,29 +65,4 @@
   margin-bottom: 14px;
 }
 
-button {
-  font-size: 14px;
-  background-color: white;
-  appearance: none;
 
-  &:hover {
-    background: lightgreen;
-  }
-
-  &:focus {
-    outline: none;
-  }
-}
-
-.active {
-  background: lightgreen;
-}
-
-// CSS Transitions
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .2s;
-}
-
-.fade-enter, .fade-leave-to {
-  opacity: 0;
-}
